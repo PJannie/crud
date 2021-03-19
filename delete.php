@@ -7,7 +7,6 @@ if (isset($_GET['id'])) {
 
 	// write delete query
 	$sql = "DELETE FROM `users` WHERE `id`='$user_id'";
-	$sql2 = "ALTER TABLE `users` Auto_increment = 1";
 
 	// Execute the query
 
